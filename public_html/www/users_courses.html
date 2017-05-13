@@ -1,0 +1,181 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src * 'unsafe-eval' 'unsafe-inline'; connect-src *; img-src *; style-src * 'unsafe-inline' ; media-src *">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Heroic Features - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    
+     <link href="css/sidebar.css" rel="stylesheet">
+     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+     <script>
+window.onload = onAllAssetsLoaded;
+function onAllAssetsLoaded()
+{
+    // Wait for Cordova to connect with the device
+    document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+
+// Cordova is ready to be used!
+function onDeviceReady()
+{
+    keepScreenTurnedOn();
+    overlayStatusBar();
+}
+
+
+
+function keepScreenTurnedOn()
+{
+    window.plugins.insomnia.keepAwake();
+}
+
+function overlayStatusBar()
+{
+        StatusBar.overlaysWebView(false);
+        StatusBar.styleBlackTranslucent;
+}
+</script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body>
+    <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a id="sidebar_user_name">
+                    </a>
+                </li>
+                <li>
+                    <a href="profile.html">Profile</a>
+                </li>
+                <li>
+                    <a href="">My Courses</a>
+                </li>
+                <li>
+                    <a href="purchase_courses.html">Buy Courses</a>
+                </li>
+                <li>
+                    <a class="logout" href="index.html">Logout</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
+                    <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+    			<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+            </button>
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+
+  
+            
+            <!-- Page Content -->
+     
+        <!-- Title -->
+
+        <!-- /.row -->
+         <!-- Page Features -->
+           <div id="current_lesson_alert"></div>
+        <div class="container">
+          
+
+           
+        </div>
+        
+        
+        
+          <template id="courses_thumbnail_template">
+         <div class="row">
+            <div class="col-md-7">
+                <img class="img-responsive" src="images/{{image}}" alt="">
+            </div>
+            <div class="col-md-5">
+                <h1>{{cName}}</h3>
+                <h3>{{cSmallDesc}}</h3>
+                <hr>
+                <p>{{cFullDesc}}</p>
+                <button id="course_chosen" data-id='{{cID}}' class="btn btn-primary ">Enter Course</button>
+            </div>
+        </div>
+            <hr>
+            </template>
+         
+           <template id="lessons_thumbnail_template">
+         <div class="row">
+            <div class="col-md-5">
+                 <h3>Lesson : {{lesson_id}}</h3>
+                        <p>{{lesson_desc}}</p>
+
+                             <button id="lesson_chosen" data-id='{{lesson_id}}' class="btn btn-primary btn-block">Enter Course</button>
+            </div>
+        </div>
+            <hr>
+            </template>
+         
+         <template id="lessons_thumbnail_template">
+                <div class="col-md-3 col-sm-6 hero-feature">
+                <div class="thumbnail">
+                    <div class="caption">
+                        <h3>Lesson : {{lesson_id}}</h3>
+                        <p>{{lesson_desc}}</p>
+
+                             <button id="lesson_chosen" data-id='{{lesson_id}}' class="btn btn-primary btn-block">Enter Lesson</button>
+
+                    </div>
+                </div>
+                    </div>
+            </template>
+        <!-- /.row -->
+        <hr>
+      
+
+
+
+    </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+  
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/mustache.js"></script>
+    <script src="js/sidebar.js"></script>
+    <script src="js/loginmodal.js"></script>
+    <script src="js/users_courses.js"></script>
+    <script src="js/keepscreenawake.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

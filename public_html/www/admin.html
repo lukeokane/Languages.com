@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="Content-Security-Policy" content="default-src *; script-src * 'unsafe-eval' 'unsafe-inline'; connect-src *; img-src *; style-src * 'unsafe-inline' ; media-src *">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <title>Heroic Features - Start Bootstrap Template</title>
+
+        <!-- Bootstrap Core CSS -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+
+        <link href="css/sidebar.css" rel="stylesheet">
+        <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+        <script>
+            window.onload = onAllAssetsLoaded;
+            function onAllAssetsLoaded()
+                {
+                    // Wait for Cordova to connect with the device
+                    document.addEventListener("deviceready", onDeviceReady, false);
+                }
+
+
+   // Cordova is ready to be used!
+            function onDeviceReady()
+                {
+                    keepScreenTurnedOn();
+                    overlayStatusBar();
+                }
+
+
+
+            function keepScreenTurnedOn()
+                {
+                    window.plugins.insomnia.keepAwake();
+                }
+
+            function overlayStatusBar()
+                {
+                    StatusBar.overlaysWebView(false);
+                    StatusBar.styleBlackTranslucent;
+                }
+        </script>
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+    </head>
+
+    <body>
+        <div id="wrapper">
+            <div class="overlay"></div>
+
+            <!-- Sidebar -->
+            <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+                <ul class="nav sidebar-nav">
+                    <li class="sidebar-brand">
+                        <a id="sidebar_user_name">
+                        </a>
+                    </li>
+                    <li>
+                        <a class="logout" href="index.html">Logout</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- /#sidebar-wrapper -->
+            <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                <span class="hamb-top"></span>
+                <span class="hamb-middle"></span>
+                <span class="hamb-bottom"></span>
+            </button>
+
+            <!-- Page Content -->
+            <div id="page-content-wrapper">
+
+
+
+
+                <!-- Page Content -->
+
+                <!-- Title -->
+
+                <!-- /.row -->
+                <!-- Page Features -->
+                <div class="container">
+
+                </div>
+
+
+
+                <!-- /.row -->
+                <hr>
+
+
+            </div>
+            <!-- /#page-content-wrapper -->
+            <template id="thumbnail-template">
+                <div class="col-md-3 col-sm-6 hero-feature">
+                    <div class="thumbnail">
+                        <img src="images/{{image}}" alt="">
+
+                        <div class="caption">
+                            <div id="alert"></div>
+                            <h3><span class="noedit cName">{{cName}} </span></h3>
+                            <input id="cName" class="crededit cName"/>    
+                            <p><span class="noedit cSmallDesc">{{cSmallDesc}} </span></p>
+                            <input  id="cSmallDesc" style="width:100%" class="crededit cSmallDesc"/> 
+                            <hr>
+                            <p><span class="noedit cFullDesc">{{cFullDesc}} </span></p>
+                            <input  id="cFullDesc" id="cSmallDesc" style="width:100%" class="crededit 
+                                    cFullDesc"/>    
+                            <br><br>
+                            <button class="editCred noedit btn btn-primary">Edit 
+                                Course</button>
+                            <button  data-id='{{cID}}' class="saveCred crededit btn btn-
+                                     primary">Save</button>
+                            <button class="cancelCred crededit btn btn-primary">Cancel</button>
+
+                        </div>
+                    </div>
+                </div>
+            </template>
+            <!-- /.row -->
+            <hr>
+
+
+
+
+        </div>
+    </div>
+    <!-- /#page-content-wrapper -->
+
+</div>
+<!-- /#wrapper -->
+
+
+<!-- /.container -->
+
+<!-- jQuery -->
+<script src="js/jquery.js"></script>
+<script src="js/mustache.js"></script>
+<script src="js/admin.js"></script>
+<script src="js/keepscreenawake.js"></script>
+<script src="js/sidebar.js"></script>
+<!-- Bootstrap Core JavaScript -->
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,228 @@
+[27-Feb-2017 23:16:45 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:16:51 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:41:15 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/login.php on line 28
+[27-Feb-2017 23:41:21 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/login.php on line 28
+[27-Feb-2017 23:41:23 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/login.php on line 28
+[27-Feb-2017 23:41:34 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/login.php on line 14
+[27-Feb-2017 23:47:34 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:49:26 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:49:27 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:49:41 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:49:42 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:49:43 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:49:44 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:53:57 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:53:58 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:53:58 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:53:59 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:54:00 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:54:24 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:54:25 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:54:25 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:54:25 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[27-Feb-2017 23:54:25 UTC] PHP Fatal error:  Call to a member function prepare() on null in /home/lukeokan/public_html/get_all_languages.php on line 6
+[01-Mar-2017 01:25:04 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/lukeokan/public_html/charge_user.php on line 3
+[01-Mar-2017 01:25:04 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lukeokan/public_html/charge_user.php on line 3
+[01-Mar-2017 01:29:38 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/lukeokan/public_html/charge_user.php on line 3
+[01-Mar-2017 01:29:38 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lukeokan/public_html/charge_user.php on line 3
+[01-Mar-2017 01:31:16 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/lukeokan/public_html/charge_user.php on line 3
+[01-Mar-2017 01:31:16 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lukeokan/public_html/charge_user.php on line 3
+[01-Mar-2017 01:31:43 UTC] PHP Warning:  require_once(vendor/autoload.php): failed to open stream: No such file or directory in /home/lukeokan/public_html/charge_user.php on line 3
+[01-Mar-2017 01:31:43 UTC] PHP Fatal error:  require_once(): Failed opening required 'vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/lukeokan/public_html/charge_user.php on line 3
+[01-Mar-2017 16:37:24 UTC] PHP Parse error:  syntax error, unexpected '$statement' (T_VARIABLE) in /home/lukeokan/public_html/upload_image.php on line 22
+[01-Mar-2017 16:38:12 UTC] PHP Parse error:  syntax error, unexpected '$statement' (T_VARIABLE) in /home/lukeokan/public_html/upload_image.php on line 22
+[06-Mar-2017 22:37:51 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 22:37:54 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 22:38:01 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 22:38:10 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 22:38:37 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:23:40 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:23:49 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:24:19 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:24:20 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:24:47 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:25:19 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:25:27 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:26:36 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:26:45 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:27:43 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:27:45 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:28:12 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:28:16 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:28:16 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:10 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:29 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:30 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:31 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:31 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:31 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:31 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:31 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:32 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[06-Mar-2017 23:29:32 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/lukeokan/public_html/login.php on line 109
+[07-Mar-2017 22:52:33 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFLsVsFAWvyCYC'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[08-Mar-2017 01:47:34 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFOhzx9PuM5zbT'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[08-Mar-2017 03:45:38 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFQbS1wTugndaS'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[08-Mar-2017 05:42:10 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFSTK8X3Di2XzE'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[08-Mar-2017 09:34:33 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFWEwlYqsWMYvr'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[08-Mar-2017 11:37:38 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFYD5JYyGsZrfz'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[08-Mar-2017 15:33:33 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFc10eh3PwAWhq'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[08-Mar-2017 17:45:47 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFe99yTk0kSQKw'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[08-Mar-2017 22:48:11 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFj1U952wcELbA'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[08-Mar-2017 23:27:11 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFjevjzHJPhTuh'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[09-Mar-2017 08:08:34 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AFs4bXlnFprhik'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(17): Stripe\Charg in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[11-Mar-2017 17:07:14 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AGlCjjZQyqsDRk'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(20): Stripe\Charge in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[11-Mar-2017 17:07:43 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AGlDrpOCg4tub8'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(20): Stripe\Charge in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[11-Mar-2017 17:09:20 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AGlFA4ITCzUMqw'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(20): Stripe\Charge in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[11-Mar-2017 17:12:38 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AGlI6aLF5uqFol'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(20): Stripe\Charge in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[11-Mar-2017 17:14:49 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AGlK1UCGIBBoSe'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(20): Stripe\Charge in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[11-Mar-2017 17:15:28 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AGlLERkNj8P6F7'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(20): Stripe\Charge in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[13-Mar-2017 09:52:22 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AHOeC9yXCrpYYH'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(20): Stripe\Charge in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[13-Mar-2017 10:31:04 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Missing required param: amount.' in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AHPGlLVoQ9XZYl'
+Stack trace:
+#0 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource::_create(Array, NULL)
+#5 /home/lukeokan/public_html/charge_user.php(20): Stripe\Charge in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[30-Mar-2017 02:17:37 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_ANe9ctNYuDk2TV'
+Stack trace:
+#0 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource:: in /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110
+[16-Apr-2017 03:54:27 UTC] PHP Fatal error:  Uncaught exception 'Stripe\Error\InvalidRequest' with message 'Must provide source or customer.' in /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiRequestor.php:110 from API request 'req_AU2YuyqBAtkBpy'
+Stack trace:
+#0 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiRequestor.php(266): Stripe\ApiRequestor->handleApiError('{\n  "error": {\n...', 400, Array, Array)
+#1 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiRequestor.php(65): Stripe\ApiRequestor->_interpretResponse('{\n  "error": {\n...', 400, Array)
+#2 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiResource.php(120): Stripe\ApiRequestor->request('post', '/v1/charges', Array, Array)
+#3 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiResource.php(159): Stripe\ApiResource::_staticRequest('post', '/v1/charges', Array, NULL)
+#4 /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/Charge.php(73): Stripe\ApiResource:: in /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/ApiRequestor.php on line 110

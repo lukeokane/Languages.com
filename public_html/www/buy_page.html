@@ -1,0 +1,134 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Heroic Features - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/1-col-portfolio.css" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="assets/demo.css">
+<link rel="stylesheet" href="assets/form-validation.css">
+<link rel="stylesheet" href="assets/awesome.css">
+<link href="assets/main.css" rel="stylesheet"/>
+    
+     <link href="css/sidebar.css" rel="stylesheet">
+     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+    
+     <script>
+         
+window.onload = onAllAssetsLoaded;
+function onAllAssetsLoaded()
+{
+    // Wait for Cordova to connect with the device
+    document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+
+// Cordova is ready to be used!
+function onDeviceReady()
+{
+    keepScreenTurnedOn();
+    overlayStatusBar();
+}
+
+
+
+function keepScreenTurnedOn()
+{
+    window.plugins.insomnia.keepAwake();
+}
+
+function overlayStatusBar()
+{
+        StatusBar.overlaysWebView(false);
+        StatusBar.styleBlackTranslucent;
+}
+</script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body>
+    
+        <!-- Sidebar -->
+      
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+
+
+  
+            
+            <!-- Page Content -->            
+        <!-- Page Features -->
+        <div class="container">
+
+             <template id="thumbnail-template">
+                 
+         <div class="row">
+            <div class="col-md-7">
+                              <button id="cancelbutton" type="button" class="btn btn-default btn-block">Cancel Purchase</button>
+                   <br>
+                   <br>
+                <img class="img-responsive" src="images/{{image}}" alt="">
+            </div>
+            <div class="col-md-5">
+                <h3>{{cName}}</h3>
+                <p>{{cSmallDesc}}</p>
+                        <hr>
+                        <p>{{cFullDesc}}</p>
+                        <hr>
+                        <p style="color: #0074D9;"><b>Are you sure you would to like purchase this? </b></p>
+                        <button type="button" value="" id="confirm_purchase" class="btn btn-primary"><b>Purchase now for &euro;{{cPrice}}</b></button>
+            </div>
+        </div>
+            <hr>
+            </template>
+            
+            
+            
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+    </div>
+        <!-- /#page-content-wrapper -->
+
+
+  
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+    <script src="js/mustache.js"></script>       
+    <script src="js/buy_item.js"></script>
+    
+    <script src="js/keepscreenawake.js"></script>
+  <script src="https://checkout.stripe.com/checkout.js"></script>
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
+
+

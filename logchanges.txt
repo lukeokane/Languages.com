@@ -1,0 +1,28 @@
+Implemented sliding scrollbar (bootsnip)
+Implemented icon + splash
+Implemented insomnia plugin
+Implemented modal form
+Implemented preference statusbarstyle blacktranslucent
+Implemented register system with client + serverside validation. 
+-JQuery used for client side validation & outputting error messages.
+Implemented login system with client + serverside validation.
+-JQuery used for client side validation & outputting error messages.
+-SessionID created on login and stored on server, meaning no user sensitive user details will be stored on the application.
+--If a user hasn't bought any courses, their session key is valid for 2 hours or until they exit the app.
+--If a user has bought a course, they will stay logged in until the choose to log out.
+Implemented thumbnails by using Mustache (a simple web template system)
+Customised bootstrap template with nicer looking CSS.
+Implemented live search system to search for courses by name (uses on keyup)
+Implemented purchasing system
+-User credit card details stored on STRIPE.s
+-User's purchase saved on database.
+Implemented lock & unlocking of courses ( The user can only be able to view the course from one device at a given time.)
+Implemented lesson tracking (The app should keep track of which lesson a user is currently on for each course that they have purchased.)
+Implemented profile editing
+-Email can be changed.
+-Password can be changed, account password is asked for an verified in backend, if password is correct, the new password will replace the old one.
+
+Independently learned JQuery, AJAX and JSON.
+Independently learned to use Mustache for efficient templating.
+Implemented JQUERY/AJAX/JSON and Mustache successfully for a visually pleasing product.
+Indepently created a fully functioning login system with a session management with session keys.

@@ -1,0 +1,75 @@
+/* button */
+input[type=button],
+input[type=submit]
+{
+    background-color: #666;
+    color: #fff;
+    border:thin solid #ddd;
+    border-radius: 5px;
+}
+
+input[type=button]:hover,
+input[type=submit]:hover,
+input[type=button]:focus,
+input[type=submit]:focus
+{
+    background-color: #eee;
+    color: #666;
+    box-shadow: 3px 3px 5px #888;
+}
+
+input:read-only
+{
+    box-shadow: none;
+    border: none;
+}
+/* end of button */
+
+
+/* Align form input fields */
+#dor_payment_form label
+{
+    display: inline-block;
+    min-width: 150px;
+}
+/* end of align form input fields */
+
+
+/* similar to Stripe payment button*/
+.cancel_button
+{
+    background: #f00 !important;
+    background-image: linear-gradient(#fe5d85,#ed004c 85%,#f41062) !important;
+    display: block;
+    min-height: 30px;
+    position: relative;
+    padding: 0 12px;
+    height: 30px;
+    line-height: 30px;
+    background: #f00;
+    background-image: linear-gradient(#fe5d85,#ed004c 85%,#f41062);
+    font-size: 14px;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    text-shadow: 0 -1px 0 rgba(0,0,0,0.25);
+    box-shadow: inset 0 1px 0 rgba(255,255,255,0.25);
+    border-radius: 4px;
+    display: inline-block;
+    -webkit-font-smoothing: antialiased;
+    border: 0;
+    padding: 1px;
+    text-decoration: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    align-items: flex-start;
+    text-align: center;
+    padding: 1px 6px; 
+}
+
+#paymentAmountError
+{
+    visibility:hidden;
+    color:red;
+}
+

@@ -1,0 +1,171 @@
+    <!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Security-Policy" content="default-src *; script-src * 'unsafe-eval' 'unsafe-inline'; connect-src *; img-src *; style-src * 'unsafe-inline' ; media-src *">    
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Heroic Features - Start Bootstrap Template</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/heroic-features.css" rel="stylesheet">
+    
+     <link href="css/sidebar.css" rel="stylesheet">
+     <script type="text/javascript" charset="utf-8" src="cordova.js"></script>
+     <script>
+window.onload = onAllAssetsLoaded;
+function onAllAssetsLoaded()
+{
+    // Wait for Cordova to connect with the device
+    document.addEventListener("deviceready", onDeviceReady, false);
+}
+
+
+// Cordova is ready to be used!
+function onDeviceReady()
+{
+    keepScreenTurnedOn();
+    overlayStatusBar();
+}
+
+
+
+function keepScreenTurnedOn()
+{
+    window.plugins.insomnia.keepAwake();
+}
+
+function overlayStatusBar()
+{
+        StatusBar.overlaysWebView(false);
+        StatusBar.styleBlackTranslucent;
+}
+</script>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+</head>
+
+<body>
+<!-- BEGIN # MODAL LOGIN -->
+<div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header" align="center">
+                            <img class="img-circle" id="img_logo" src="images/iconoriginal.png">
+                            <h1 style="color: #0074D9;">Languages<b>.com</b></h1>
+                            
+<div id="alert"  style="display: none;" class="alert alert-warning">
+  
+</div>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                        <!-- Begin # DIV Form -->
+                        <div id="div-forms" >
+
+                            <!-- Begin # Login Form -->
+                            <form id="login-form" action="loginVerify" method="POST">
+                                <div class="modal-body">
+                                    <div id="div-login-msg">
+                                        <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                        <span  style="color: #0074D9;" id="text-register-msg"><b>LOGIN</b>: Fill out the details below.</span>                                      
+                                    </div>
+                                    <br>
+                                    <input id="login_username" name="loginUsername" class="form-control" type="text" placeholder="Username" required>
+                                    <br>
+                                    <input id="login_password" name="loginPassword" class="form-control" type="password" placeholder="Password" required>
+
+                                </div>
+                                <div class="modal-footer">
+                                    <div>
+                                        <button id="login_button" type="button" class="btn btn-primary btn-lg btn-block">Login</button>
+                                    </div>
+                                    <div>
+                                        <button id="login_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                                        <button id="login_register_btn" type="button" class="btn btn-link">Register</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- End # Login Form -->
+
+                            <!-- Begin | Register Form -->
+                            <form id="register-form" style="display:none;">
+                                <div class="modal-body">
+                                    <div id="div-register-msg">
+                                        <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                        <span  style="color: #0074D9;" id="text-register-msg"><b>REGISTER</b>: Fill out the details below.</span>                                      
+                                    </div>
+                                    <br>
+                                    <input id="register_username" name="registerUsername"class="form-control" type="text" placeholder="Username" required>
+                                    <br>
+                                    <input id="register_email" name="registerEmail" class="form-control" type="email" placeholder="E-Mail" required>
+                                    <br>
+                                    <input id="register_password" name="registerPassword" class="form-control" placeholder="Password" required>
+                                </div>
+                                <div class="modal-footer">
+                                    <div>
+                                        
+                                        <button id ="register_button" type="button" class="btn btn-primary btn-lg btn-block">Register</button>
+                                    </div>
+                                    <div>
+                                        <button id="register_login_btn" type="button" class="btn btn-link">Log In</button>
+                                        <button id="register_lost_btn" type="button" class="btn btn-link">Lost Password?</button>
+                                    </div>
+                                </div>
+                            </form>
+                            <!-- End | Register Form -->
+
+                        </div>
+                        <!-- End # DIV Form -->
+
+                    </div>
+                </div>
+            </div>
+
+
+  <!-- Page Content -->
+    <div class="container">
+
+        <!-- Jumbotron Header -->
+        <header class="jumbotron hero-spacer">
+             <h1 style="color: #0074D9;">Languages<b>.com</b></h1>
+            <p>Welcome to languages.com, one of the top 10 leading online language learning applications on the market. Our application is widely used for beginners, intermediate and advanced persons of almost any language. </p>
+            <p> <a id="login-register-button" href="#" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#login-modal">Login / Register</a>
+            </p>
+        </header>
+
+        <!-- /.row -->
+        <hr>
+
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+     <script src="js/jquery.js"></script>
+    <script src="js/mustache.js"></script>
+    <script src="js/loginmodal.js"></script>
+    <script src="js/keepscreenawake.js"></script>
+        <script src="js/register.js"></script>
+        <script src="js/login.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

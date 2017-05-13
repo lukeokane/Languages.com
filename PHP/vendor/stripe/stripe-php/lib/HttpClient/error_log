@@ -1,0 +1,8 @@
+[07-Mar-2017 23:20:23 UTC] PHP Fatal error:  Interface 'Stripe\HttpClient\ClientInterface' not found in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php on line 26
+[08-Mar-2017 13:45:34 UTC] PHP Fatal error:  Interface 'Stripe\HttpClient\ClientInterface' not found in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php on line 26
+[08-Mar-2017 21:39:22 UTC] PHP Fatal error:  Interface 'Stripe\HttpClient\ClientInterface' not found in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php on line 26
+[22-Mar-2017 17:50:01 UTC] PHP Fatal error:  Interface 'Stripe\HttpClient\ClientInterface' not found in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php on line 26
+[24-Mar-2017 00:08:50 UTC] PHP Fatal error:  Interface 'Stripe\HttpClient\ClientInterface' not found in /home/lukeokan/public_html/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php on line 26
+[30-Mar-2017 16:59:51 UTC] PHP Fatal error:  Interface 'Stripe\HttpClient\ClientInterface' not found in /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php on line 26
+[31-Mar-2017 10:00:19 UTC] PHP Fatal error:  Interface 'Stripe\HttpClient\ClientInterface' not found in /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php on line 26
+[01-Apr-2017 04:15:10 UTC] PHP Fatal error:  Interface 'Stripe\HttpClient\ClientInterface' not found in /home/lukeokan/public_html/languages_app/vendor/stripe/stripe-php/lib/HttpClient/CurlClient.php on line 26
