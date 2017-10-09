@@ -22,12 +22,12 @@ Registration & Login System
 Session awareness across multiple devices
   - Session ID created on login and stored on server, no sensitive user details will be stored on the application.
   - If a user hasn't bought any courses, their session key is valid for 2 hours or until they exit the app.
-  - If a user has bought a course, they will stay logged in until the choose to log out.
+  - If a user has bought a course, they will stay logged in until the user chooses to log out.
 
-Live search system to search for courses by name
+Live search system to search for courses by title
 
 Purchasing system
- - User credit card details stored on Stripe.
+ - User's debit/credit card purchase processed through Stripe.
  - User's purchase saved on database.
  
  Locking & unlocking of courses 
